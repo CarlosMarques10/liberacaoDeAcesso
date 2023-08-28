@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2f2d2d;
+}
+
+.containerLogin {
+    text-align: center;
+}
+
+.containerLogin h2{
+    margin-bottom: 20px;
+    color: #ccc;
+    font-size: 30px;
+}
+
+.containerLogin form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.input{
+    width: 300px;
+    height: 45px;
+    outline: 0;
+    border-radius: 7px;
+    padding-left: 15px;
+    background-color: #202020;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.input:hover{
+    outline: auto;
+    border: 2px solid #ccc;
+}
+
+input[type="submit"]{
+    height: 35px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(37, 22, 249);
+    border: 0;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(18, 9, 141);
+}
+
+.loginRegister{
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 17px;
+}
+
+.loginRegister a {
+    text-decoration: none;
+    color: blue;
+}
+
+.flash{
+    border: 2px solid red;
+    width: 300px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
